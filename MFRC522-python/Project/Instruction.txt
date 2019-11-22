@@ -1,0 +1,5 @@
+Step 1. run "write.py" to store product info on a card/sticker.
+Step 2. run "read.py" to scan all the products through scanner.
+Step 3. A new qr code will be generated regarding to the scanned product.
+Step 4. While exiting run "match.py" and check if any extra items has been taken or not.
+Step 5. run "door.py" to check if the door is closed or open.

@@ -1,0 +1,1 @@
+Keyboard,100;Mouse,200;keyboard,100;Total,400
