@@ -1,0 +1,295 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.studios.bihim.casherlessshopndub"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:6:5-65
+12-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:6:22-62
+13
+14    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+15    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.firebase:firebase-database:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/3c1df1bfd692650bac18e17b2d07a4f8/firebase-database-17.0.0/AndroidManifest.xml:25:5-79
+16-->[com.google.firebase:firebase-database:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/3c1df1bfd692650bac18e17b2d07a4f8/firebase-database-17.0.0/AndroidManifest.xml:25:22-76
+17    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[com.google.android.gms:play-services-measurement-api:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/391e87c18aaadc80096f88d5ea4d2d62/play-services-measurement-api-16.5.0/AndroidManifest.xml:24:5-68
+17-->[com.google.android.gms:play-services-measurement-api:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/391e87c18aaadc80096f88d5ea4d2d62/play-services-measurement-api-16.5.0/AndroidManifest.xml:24:22-65
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:26:5-82
+18-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:26:22-79
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+19-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:26:22-107
+20
+21    <application
+21-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:8:5-40:19
+22        android:allowBackup="true"
+22-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:9:9-35
+23        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+23-->[com.android.support:support-compat:28.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/b6a2a1baab24083210f6c87e8b2e2539/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_icon"
+25-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:10:9-39
+26        android:label="@string/app_name"
+26-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:11:9-41
+27        android:roundIcon="@mipmap/ic_icon"
+27-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:12:9-44
+28        android:supportsRtl="true"
+28-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:13:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:14:9-40
+31        <activity android:name="com.studios.bihim.casherlessshopndub.ExitScanner" />
+31-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:15:9-58
+31-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:15:19-46
+32        <activity android:name="com.studios.bihim.casherlessshopndub.PurchaseScanner" />
+32-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:16:9-53
+32-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:16:19-50
+33        <activity android:name="com.studios.bihim.casherlessshopndub.Purchase" />
+33-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:17:9-46
+33-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:17:19-43
+34        <activity android:name="com.studios.bihim.casherlessshopndub.Exit" />
+34-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:18:9-42
+34-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:18:19-39
+35        <activity android:name="com.studios.bihim.casherlessshopndub.Profile" />
+35-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:19:9-45
+35-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:19:19-42
+36        <activity android:name="com.studios.bihim.casherlessshopndub.History" />
+36-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:20:9-45
+36-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:20:19-42
+37        <activity android:name="com.studios.bihim.casherlessshopndub.Enter" />
+37-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:21:9-43
+37-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:21:19-40
+38        <activity android:name="com.studios.bihim.casherlessshopndub.EnterScanner" />
+38-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:22:9-50
+38-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:22:19-47
+39        <activity
+39-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:23:9-25:75
+40            android:name="com.studios.bihim.casherlessshopndub.RegisterNDUB"
+40-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:24:13-41
+41            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+41-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:25:13-72
+42        <activity android:name="com.studios.bihim.casherlessshopndub.MainActivity" />
+42-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:26:9-50
+42-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:26:19-47
+43        <activity
+43-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:27:9-35:20
+44            android:name="com.studios.bihim.casherlessshopndub.LoginNDUB"
+44-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:28:13-38
+45            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+45-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:29:13-72
+46            <intent-filter>
+46-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:30:13-34:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:31:17-69
+47-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:31:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:33:17-77
+49-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:33:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <meta-data
+53-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:37:9-39:39
+54            android:name="com.google.android.gms.vision.DEPENDENCIES"
+54-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:38:13-70
+55            android:value="barcode" />
+55-->/home/bihim/Downloads/CashierlessShopNDUB/app/src/main/AndroidManifest.xml:39:13-36
+56
+57        <activity
+57-->[com.google.firebase:firebase-auth:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/6e589fcfc719f3b9aeae8c44e8d61001/firebase-auth-17.0.0/AndroidManifest.xml:24:9-31:50
+58            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+58-->[com.google.firebase:firebase-auth:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/6e589fcfc719f3b9aeae8c44e8d61001/firebase-auth-17.0.0/AndroidManifest.xml:25:13-85
+59            android:excludeFromRecents="true"
+59-->[com.google.firebase:firebase-auth:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/6e589fcfc719f3b9aeae8c44e8d61001/firebase-auth-17.0.0/AndroidManifest.xml:26:13-46
+60            android:exported="true"
+60-->[com.google.firebase:firebase-auth:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/6e589fcfc719f3b9aeae8c44e8d61001/firebase-auth-17.0.0/AndroidManifest.xml:27:13-36
+61            android:launchMode="singleTask"
+61-->[com.google.firebase:firebase-auth:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/6e589fcfc719f3b9aeae8c44e8d61001/firebase-auth-17.0.0/AndroidManifest.xml:28:13-44
+62            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+62-->[com.google.firebase:firebase-auth:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/6e589fcfc719f3b9aeae8c44e8d61001/firebase-auth-17.0.0/AndroidManifest.xml:29:13-102
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+63-->[com.google.firebase:firebase-auth:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/6e589fcfc719f3b9aeae8c44e8d61001/firebase-auth-17.0.0/AndroidManifest.xml:30:13-72
+64
+65        <service
+65-->[com.google.firebase:firebase-auth:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/6e589fcfc719f3b9aeae8c44e8d61001/firebase-auth-17.0.0/AndroidManifest.xml:33:9-39:19
+66            android:name="com.google.firebase.components.ComponentDiscoveryService"
+66-->[com.google.firebase:firebase-auth:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/6e589fcfc719f3b9aeae8c44e8d61001/firebase-auth-17.0.0/AndroidManifest.xml:34:13-84
+67            android:exported="false" >
+67-->[com.google.firebase:firebase-auth:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/6e589fcfc719f3b9aeae8c44e8d61001/firebase-auth-17.0.0/AndroidManifest.xml:35:13-37
+68            <meta-data
+68-->[com.google.firebase:firebase-auth:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/6e589fcfc719f3b9aeae8c44e8d61001/firebase-auth-17.0.0/AndroidManifest.xml:36:13-38:85
+69                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+69-->[com.google.firebase:firebase-auth:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/6e589fcfc719f3b9aeae8c44e8d61001/firebase-auth-17.0.0/AndroidManifest.xml:37:17-109
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-auth:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/6e589fcfc719f3b9aeae8c44e8d61001/firebase-auth-17.0.0/AndroidManifest.xml:38:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-database:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/3c1df1bfd692650bac18e17b2d07a4f8/firebase-database-17.0.0/AndroidManifest.xml:30:13-32:85
+72                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+72-->[com.google.firebase:firebase-database:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/3c1df1bfd692650bac18e17b2d07a4f8/firebase-database-17.0.0/AndroidManifest.xml:31:17-109
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-database:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/3c1df1bfd692650bac18e17b2d07a4f8/firebase-database-17.0.0/AndroidManifest.xml:32:17-82
+74            <meta-data
+74-->[com.google.android.gms:play-services-measurement-api:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/391e87c18aaadc80096f88d5ea4d2d62/play-services-measurement-api-16.5.0/AndroidManifest.xml:30:13-32:85
+75                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+75-->[com.google.android.gms:play-services-measurement-api:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/391e87c18aaadc80096f88d5ea4d2d62/play-services-measurement-api-16.5.0/AndroidManifest.xml:31:17-139
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.android.gms:play-services-measurement-api:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/391e87c18aaadc80096f88d5ea4d2d62/play-services-measurement-api-16.5.0/AndroidManifest.xml:32:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:32:13-34:85
+78                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+78-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:33:17-96
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:34:17-82
+80        </service>
+81
+82        <activity
+82-->[com.google.android.gms:play-services-auth:16.0.1] /home/bihim/.gradle/caches/transforms-2/files-2.1/c560eefeedc727da26a4991b60e0f593/play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+83            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+83-->[com.google.android.gms:play-services-auth:16.0.1] /home/bihim/.gradle/caches/transforms-2/files-2.1/c560eefeedc727da26a4991b60e0f593/play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+84            android:excludeFromRecents="true"
+84-->[com.google.android.gms:play-services-auth:16.0.1] /home/bihim/.gradle/caches/transforms-2/files-2.1/c560eefeedc727da26a4991b60e0f593/play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+85            android:exported="false"
+85-->[com.google.android.gms:play-services-auth:16.0.1] /home/bihim/.gradle/caches/transforms-2/files-2.1/c560eefeedc727da26a4991b60e0f593/play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+86-->[com.google.android.gms:play-services-auth:16.0.1] /home/bihim/.gradle/caches/transforms-2/files-2.1/c560eefeedc727da26a4991b60e0f593/play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+87        <!--
+88            Service handling Google Sign-In user revocation. For apps that do not integrate with
+89            Google Sign-In, this service will never be started.
+90        -->
+91        <service
+91-->[com.google.android.gms:play-services-auth:16.0.1] /home/bihim/.gradle/caches/transforms-2/files-2.1/c560eefeedc727da26a4991b60e0f593/play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+92            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+92-->[com.google.android.gms:play-services-auth:16.0.1] /home/bihim/.gradle/caches/transforms-2/files-2.1/c560eefeedc727da26a4991b60e0f593/play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+93            android:exported="true"
+93-->[com.google.android.gms:play-services-auth:16.0.1] /home/bihim/.gradle/caches/transforms-2/files-2.1/c560eefeedc727da26a4991b60e0f593/play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+94            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+94-->[com.google.android.gms:play-services-auth:16.0.1] /home/bihim/.gradle/caches/transforms-2/files-2.1/c560eefeedc727da26a4991b60e0f593/play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+95
+96        <receiver
+96-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:37:9-44:20
+97            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+97-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:38:13-78
+98            android:exported="true"
+98-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:39:13-36
+99            android:permission="com.google.android.c2dm.permission.SEND" >
+99-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:40:13-73
+100            <intent-filter>
+100-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:41:13-43:29
+101                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+101-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:42:17-81
+101-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:42:25-78
+102            </intent-filter>
+103        </receiver>
+104        <!--
+105             FirebaseInstanceIdService performs security checks at runtime,
+106             no need for explicit permissions despite exported="true"
+107        -->
+108        <service
+108-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:50:9-56:19
+109            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+109-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:51:13-77
+110            android:exported="true" >
+110-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:52:13-36
+111            <intent-filter android:priority="-500" >
+111-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:53:13-55:29
+111-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:53:28-51
+112                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+112-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:54:17-80
+112-->[com.google.firebase:firebase-iid:17.1.2] /home/bihim/.gradle/caches/transforms-2/files-2.1/09e016f5731ff5e8c07dcb1097a62b00/firebase-iid-17.1.2/AndroidManifest.xml:54:25-77
+113            </intent-filter>
+114        </service>
+115
+116        <activity
+116-->[com.google.android.gms:play-services-base:16.0.1] /home/bihim/.gradle/caches/transforms-2/files-2.1/daaa178d61196a59ad54939f8bfa538d/play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+117            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+117-->[com.google.android.gms:play-services-base:16.0.1] /home/bihim/.gradle/caches/transforms-2/files-2.1/daaa178d61196a59ad54939f8bfa538d/play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+118            android:exported="false"
+118-->[com.google.android.gms:play-services-base:16.0.1] /home/bihim/.gradle/caches/transforms-2/files-2.1/daaa178d61196a59ad54939f8bfa538d/play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+119-->[com.google.android.gms:play-services-base:16.0.1] /home/bihim/.gradle/caches/transforms-2/files-2.1/daaa178d61196a59ad54939f8bfa538d/play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+120
+121        <provider
+121-->[com.google.firebase:firebase-common:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/d95e387fcfe7a5fb761a741c9abeac26/firebase-common-17.0.0/AndroidManifest.xml:12:9-16:39
+122            android:name="com.google.firebase.provider.FirebaseInitProvider"
+122-->[com.google.firebase:firebase-common:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/d95e387fcfe7a5fb761a741c9abeac26/firebase-common-17.0.0/AndroidManifest.xml:13:13-77
+123            android:authorities="com.studios.bihim.casherlessshopndub.firebaseinitprovider"
+123-->[com.google.firebase:firebase-common:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/d95e387fcfe7a5fb761a741c9abeac26/firebase-common-17.0.0/AndroidManifest.xml:14:13-72
+124            android:exported="false"
+124-->[com.google.firebase:firebase-common:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/d95e387fcfe7a5fb761a741c9abeac26/firebase-common-17.0.0/AndroidManifest.xml:15:13-37
+125            android:initOrder="100" />
+125-->[com.google.firebase:firebase-common:17.0.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/d95e387fcfe7a5fb761a741c9abeac26/firebase-common-17.0.0/AndroidManifest.xml:16:13-36
+126
+127        <receiver
+127-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:29:9-33:20
+128            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+128-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:30:13-85
+129            android:enabled="true"
+129-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:31:13-35
+130            android:exported="false" >
+130-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:32:13-37
+131        </receiver>
+132        <receiver
+132-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:34:9-42:20
+133            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+133-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:35:13-100
+134            android:enabled="true"
+134-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:36:13-35
+135            android:exported="true"
+135-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:37:13-36
+136            android:permission="android.permission.INSTALL_PACKAGES" >
+136-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:38:13-69
+137            <intent-filter>
+137-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:39:13-41:29
+138                <action android:name="com.android.vending.INSTALL_REFERRER" />
+138-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:40:17-79
+138-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:40:25-76
+139            </intent-filter>
+140        </receiver>
+141
+142        <service
+142-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:44:9-47:40
+143            android:name="com.google.android.gms.measurement.AppMeasurementService"
+143-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:45:13-84
+144            android:enabled="true"
+144-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:46:13-35
+145            android:exported="false" />
+145-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:47:13-37
+146        <service
+146-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:48:9-52:72
+147            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+147-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:49:13-87
+148            android:enabled="true"
+148-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:50:13-35
+149            android:exported="false"
+149-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:51:13-37
+150            android:permission="android.permission.BIND_JOB_SERVICE" />
+150-->[com.google.android.gms:play-services-measurement:16.5.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/121d1de38067f3e31d93d0e933e25786/play-services-measurement-16.5.0/AndroidManifest.xml:52:13-69
+151
+152        <meta-data
+152-->[com.google.android.gms:play-services-basement:16.2.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/e48008fcdecca5f4818e2e5ecc97f963/play-services-basement-16.2.0/AndroidManifest.xml:23:9-25:69
+153            android:name="com.google.android.gms.version"
+153-->[com.google.android.gms:play-services-basement:16.2.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/e48008fcdecca5f4818e2e5ecc97f963/play-services-basement-16.2.0/AndroidManifest.xml:24:13-58
+154            android:value="@integer/google_play_services_version" />
+154-->[com.google.android.gms:play-services-basement:16.2.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/e48008fcdecca5f4818e2e5ecc97f963/play-services-basement-16.2.0/AndroidManifest.xml:25:13-66
+155        <meta-data
+155-->[com.android.support:support-v4:26.1.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/7900ca26d19dc072814d149556954322/support-v4-26.1.0/AndroidManifest.xml:26:9-28:38
+156            android:name="android.support.VERSION"
+156-->[com.android.support:support-v4:26.1.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/7900ca26d19dc072814d149556954322/support-v4-26.1.0/AndroidManifest.xml:27:13-51
+157            android:value="26.1.0" />
+157-->[com.android.support:support-v4:26.1.0] /home/bihim/.gradle/caches/transforms-2/files-2.1/7900ca26d19dc072814d149556954322/support-v4-26.1.0/AndroidManifest.xml:28:13-35
+158    </application>
+159
+160</manifest>

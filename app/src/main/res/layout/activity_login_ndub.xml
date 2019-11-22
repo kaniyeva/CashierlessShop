@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginNDUB"
+    android:background="#317589">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingHorizontal="40dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_shopping_icon" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cashierless Shop"
+            android:textSize="30dp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/email"
+            style="@style/edittext_style"
+            android:inputType="textEmailAddress"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/password"
+            style="@style/edittext_style"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_margin="30dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:text="Login"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/jumpReg"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="If not registered, click here" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
