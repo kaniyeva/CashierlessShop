@@ -47,7 +47,7 @@ public class Exit extends AppCompatActivity {
             }
         });
     }
-
+//camera click
     private void cameraClick()
     {
         if (ContextCompat.checkSelfPermission(Exit.this, Manifest.permission.CAMERA)
