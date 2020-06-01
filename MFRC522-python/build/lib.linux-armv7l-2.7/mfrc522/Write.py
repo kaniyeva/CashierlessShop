@@ -10,3 +10,5 @@ try:
         print("Data Written successfully")
 finally:
         GPIO.cleanup()
+
+        
