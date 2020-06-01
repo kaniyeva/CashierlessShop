@@ -5,6 +5,7 @@ from firebase_admin import credentials
 from firebase_admin import db
 import RPi.GPIO as GPIO
 
+
 myGPIO=17
 servo = Servo(myGPIO)
 
