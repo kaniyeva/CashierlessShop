@@ -3,12 +3,7 @@ package com.studios.bihim.casherlessshopndub;
 public class User
 {
     String username, email, fullname, balance,order;
-
-    public User()
-    {
-
-    }
-
+//
     public User(String username, String email, String fullname,String balance, String order)
     {
         this.email = email;

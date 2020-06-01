@@ -63,7 +63,7 @@ public class LoginNDUB extends AppCompatActivity {
         });
 
     }
-
+//
     private void userLogin()
     {
         String email = editTextEmail.getText().toString().trim();

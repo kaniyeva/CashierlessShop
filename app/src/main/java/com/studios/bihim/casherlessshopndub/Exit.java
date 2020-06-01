@@ -15,7 +15,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
+//
 public class Exit extends AppCompatActivity {
 
     public static TextView header;

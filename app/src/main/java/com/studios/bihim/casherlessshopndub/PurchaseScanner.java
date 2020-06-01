@@ -27,7 +27,7 @@ public class PurchaseScanner extends AppCompatActivity implements ZXingScannerVi
 
     ZXingScannerView ScannerView;
     String balance_string;
-
+//
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

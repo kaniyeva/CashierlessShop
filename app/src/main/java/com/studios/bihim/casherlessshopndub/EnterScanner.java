@@ -19,7 +19,7 @@ import java.util.TimerTask;
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
 
 public class EnterScanner extends AppCompatActivity implements ZXingScannerView.ResultHandler {
-
+//-
     ZXingScannerView ScannerView;
     TimerTask timerTask;
     Timer timer;

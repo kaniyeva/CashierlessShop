@@ -27,7 +27,7 @@ public class Purchase extends AppCompatActivity {
     public static LinearLayout linearLayout;
     public static String something;
     private int CAMERA_PERMISSION_CODE = 1;
-
+//
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
