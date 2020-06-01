@@ -7,6 +7,7 @@ Author: Pi My Life Up
 Author-email: support@pimylifeup.com
 License: UNKNOWN
 Description: # mfrc522
+
         
         A python library to read/write RFID tags via the budget MFRC522 RFID module.
         
