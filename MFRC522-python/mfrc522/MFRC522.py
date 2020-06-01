@@ -3,6 +3,7 @@
 #
 #    Copyright 2014,2018 Mario Gomez <mario.gomez@teubi.co>
 #
+
 #    This file is part of MFRC522-Python
 #    MFRC522-Python is a simple Python implementation for
 #    the MFRC522 NFC Card Reader for the Raspberry Pi.
