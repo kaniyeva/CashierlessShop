@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegisterNDUB"
-    android:background="#317589"
+    android:background="#f07e20"
     >
     <ScrollView
         android:layout_width="fill_parent"

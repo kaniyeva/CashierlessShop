@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CashierlessShopNDUB.iml" filepath="$PROJECT_DIR$/CashierlessShopNDUB.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CashierlessShop.iml" filepath="$PROJECT_DIR$/CashierlessShop.iml" group="CashierlessShop" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="CashierlessShop/app" />
     </modules>
   </component>
 </project>

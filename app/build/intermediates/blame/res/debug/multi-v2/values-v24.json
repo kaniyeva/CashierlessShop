@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/bihim/Downloads/CashierlessShopNDUB/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "C:\\Users\\User\\Desktop\\CashierlessShop\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "/home/bihim/.gradle/caches/transforms-2/files-2.1/52db87190a67a30f4b5b80a230040e13/support-media-compat-26.1.0/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\52db87190a67a30f4b5b80a230040e13\\support-media-compat-26.1.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/bihim/.gradle/caches/transforms-2/files-2.1/5e9d99a3f2591af4d0a958e224303997/appcompat-v7-28.0.0/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\5e9d99a3f2591af4d0a958e224303997\\appcompat-v7-28.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

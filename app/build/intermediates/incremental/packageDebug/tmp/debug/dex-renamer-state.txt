@@ -1,7 +1,7 @@
-#Sat Nov 23 02:33:14 BDT 2019
-base.0=/home/bihim/Downloads/CashierlessShopNDUB/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+#Mon Jun 01 05:17:24 ALMT 2020
+base.0=C\:\\Users\\User\\Desktop\\CashierlessShop\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/home/bihim/Downloads/CashierlessShopNDUB/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+base.1=C\:\\Users\\User\\Desktop\\CashierlessShop\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

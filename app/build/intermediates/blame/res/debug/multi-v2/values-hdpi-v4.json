@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/bihim/Downloads/CashierlessShopNDUB/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "C:\\Users\\User\\Desktop\\CashierlessShop\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/home/bihim/.gradle/caches/transforms-2/files-2.1/66eb3978ec24324a1d22f54b0d64d735/core-1.9/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\66eb3978ec24324a1d22f54b0d64d735\\core-1.9\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/bihim/.gradle/caches/transforms-2/files-2.1/5e9d99a3f2591af4d0a958e224303997/appcompat-v7-28.0.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\5e9d99a3f2591af4d0a958e224303997\\appcompat-v7-28.0.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
